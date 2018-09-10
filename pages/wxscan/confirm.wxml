@@ -1,0 +1,5 @@
+
+<button type="primary" size="default" loading="{{loading}}" plain="false"
+        disabled="{{disabled}}" bindtap="confirm"> 确认 </button>
+<button type="primary" size="default" loading="{{loading}}" plain="false"
+        disabled="{{disabled}}" bindtap="cancel"> 取消 </button>

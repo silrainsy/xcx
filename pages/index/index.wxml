@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">欢迎{{userInfo.nickName}}光临！</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view style="display: flex; flex-direction: row;">
+    <button type="default" class="index-button" bindtap="autoLoginTap">免认证表项</button>
+    <button type="default" open-type="contact" class="index-button">意见反馈</button>
+  </view>
+  <view style="display: flex; flex-direction: row;">
+    <button type="default" class="index-button" bindtap="bindWxscanTap">扫码</button>
+    <!-- <button type="default" class="index-button" bindtap="bindAdminManageTap">认证后台</button>
+    <button type="primary" class="index-button" bindtap="bindCheckTap">Wi-Fi检测</button> -->
+  </view>
+<!-- <view style="display: flex; flex-direction: row;">
+    <button type="default" class="index-button" bindtap="pcwifiTap">PC连wifi测试</button>
+    <button type="default" class="index-button" bindtap="visitorAdminTap">管理员申请</button>
+  </view> -->
+</view>

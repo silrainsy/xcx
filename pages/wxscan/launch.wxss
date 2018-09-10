@@ -1,0 +1,36 @@
+/* .button_box{
+  width:200px;
+  height:100px;
+  box-sizing:border-box;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-100px;
+  margin-top:-50px;
+}
+.button_box button{
+   height:30px;
+  font-size:24px;
+  line-height:30px;
+  color:#fafaf7 !important;
+  background:#4ec2b2 !important;
+  margin:10px auto;
+  border:none !important;
+  box-shadow: 0.03571429rem 0.17857143rem rgba(0, 0, 0, 0.6);
+
+    /* font-family: "Microsoft YaHei", serif;
+    width: 73%;
+    background: #4ec2b2;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0.3992381rem;
+    height: 2.85714286rem;
+    line-height: 2.85714286rem;
+    box-shadow: 0.03571429rem 0.17857143rem rgba(0, 0, 0, 0.6);
+    bottom: 288.75rem;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px; 
+} */

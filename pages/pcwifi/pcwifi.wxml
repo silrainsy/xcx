@@ -1,0 +1,9 @@
+
+<view class="content">
+    <view class="big-img">
+        <image src='./image/webwxgetmsgimg.png'></image>
+    </view>
+    <view class="tip-title">您的PC正在连接Wi-Fi</view>
+    <button class="btn-online" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">允许PC认证上网</button> 
+    <view class="foot-tip">根据国家规定，公共场所连接Wi-Fi将记录手机号</view>
+</view>
